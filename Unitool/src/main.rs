@@ -29,12 +29,6 @@ fn main()
         io::stdin()
             .read_line(&mut input_str)
             .expect("Failed to read line");
-    
-            //let guess: u32 = match input_str.trim().parse()
-            //{
-                //Ok(num) => num,
-                //Err(_) => continue,
-            //};
         
             let v: Vec<&str> = input_str.split(' ').collect();
 
@@ -42,7 +36,5 @@ fn main()
             {
                 println!("{}", s)
             }
-
-            //println!("You entered: {}", input_str);
     }
 }
