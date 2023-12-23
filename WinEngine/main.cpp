@@ -5,7 +5,6 @@
 
 
 
-
 int __stdcall  runSample(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
 	WindowManager wm;
@@ -186,6 +185,7 @@ int __stdcall  runSample(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lp
 	// Parse the menu selections:
 	return wm.run(hInstance, hPrevInstance, lpCmdLine, nCmdShow);
 }
+
 
 
 
