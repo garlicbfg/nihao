@@ -7,6 +7,8 @@
 
 
 
+
+
 class LogSend
 {
 private:
