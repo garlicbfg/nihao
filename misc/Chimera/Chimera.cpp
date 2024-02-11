@@ -9,8 +9,6 @@
 
 
 
-
-
 void Chimera::run(const std::string& inputFile)
 {
     std::vector<std::string> lines = FileUtil::readToLines(inputFile);

@@ -4,8 +4,6 @@
 
 
 
-
-
 class Chimera
 {
 private:
