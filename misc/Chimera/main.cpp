@@ -4,6 +4,7 @@
 
 
 
+
 int main()
 {
     const std::string inputFile = "input.txt";
