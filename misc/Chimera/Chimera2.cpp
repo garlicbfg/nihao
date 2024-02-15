@@ -272,3 +272,10 @@ std::vector<std::vector<int>> Chimera::makeClusters(std::vector<TransactionData>
 
     return clusters;
 }
+
+
+
+std::pair<int, int> Chimera::test() const
+{
+	return std::make_pair<int,int>(s.size(), s.size()/2);
+}
