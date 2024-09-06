@@ -121,7 +121,7 @@ int main(int argc, char* argv[])
 {
 	if (argc != 6)
 	{
-		run(8.19, 900, 900, 900, 50000);
+		run(1., 535, 535, 563, 50000);
 		return -1;
 	}
 	else
